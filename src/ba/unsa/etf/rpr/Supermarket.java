@@ -12,11 +12,11 @@ public class Supermarket {
     }
 
     public boolean dodajArtikl(Artikl prima) {
-        if(brojac >= 50)
+        if(this.brojac >= 1000)
             return false;
 
-        artikli[brojac] = prima;
-        brojac++;
+        this.artikli[this.brojac] = prima;
+        this.brojac++;
         return true;
     }
 
